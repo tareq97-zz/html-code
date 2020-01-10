@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Learn Table Tags in HTML</title>
+    <style media="screen">
+      thead{color: red;}
+      tbody{color: blue;}
+      tfoot{color: green;}
+    </style>
+  </head>
+  <body>
+    <h1>Learn Table Tags in HTML</h1>
+    <br>
+    
+    <!--table with basic th and td-->
+    <table border="1px">
+      <tr>
+        <th>First</th>
+        <th>First</th>
+      </tr>
+      <tr>
+        <th>Second</th>
+        <th>Second</th>
+      </tr>
+    </table>
+
+    <br>
+
+    <!--table with captions-->
+    <table border="1px">
+      <caption>Table with caption</caption>
+      <tr>
+        <th>First row</th>
+        <th>First row</th>
+      </tr>
+      <tr>
+        <th>Second row</th>
+        <th>Second row</th>
+      </tr>
+    </table>
+
+    <br>
+
+    <!--table with few advanced tags such as thead, tfoot-->
+    <table border="1px">
+      <caption>Table with caption</caption>
+      <thead>
+        <tr>
+          <th>Head row</th>
+          <th>Head row</th>
+        </tr>
+      </thead>
+      <br>
+      <tbody>
+        <tr>
+          <td>Actual row of table</td>
+          <td>Actual row of table</td>
+        </tr>
+      </tbody>
+      <br>
+      <tfoot>
+        <tr>
+          <td>Actual row of table</td>
+          <td>Actual row of table</td>
+        </tr>
+      </tfoot>
+    </table>
+
+    <br>
+
+    <!--table with few more advanced optional tags like col and colgroup-->
+    <table border="1px">
+      <caption>Table with col and colgroup</caption>
+      <colgroup>
+        <col span="1" style="background-color: grey;">
+        <col span="1" style="background-color: yellow;">
+        <col span="1" style="background-color: orange;">
+      </colgroup>
+      <thead>
+        <tr>
+          <th>Header1</th>
+          <th>Header2</th>
+          <th>Header3</th>
+        </tr>
+      </thead>
+      <br>
+      <tbody>
+        <tr>
+          <td>Value1</td>
+          <td>Value2</td>
+          <td>Value3</td>
+        </tr>
+      </tbody>
+      <br>
+      <tfoot>
+        <tr>
+          <td>Foot1</td>
+          <td>Foot2</td>
+          <td>Foot3</td>
+        </tr>
+      </tfoot>
+    </table>
+
+
+  </body>
+</html>
